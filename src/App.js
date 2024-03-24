@@ -15,13 +15,15 @@ import "uikit/dist/js/uikit"
 function App() {
   return (
 
-    <div className="App" style={{backgroundImage : "images/01.jpg"}} >
+    <div className="App" >
+      <div className='bgimg'>
       <Header/>
   
-      <div id = "ss" style={{ marginBottom:'200px', height:'100vh', backgroundColor:'white'}}>   </div>
+      <div id = "ss" style={{ marginBottom:'400px', backgroundColor:'white'}}> <video src='images/production.mp4' autoPlay loop muted />   </div>
       <div id = "sd" style={{ marginBottom:'200px', height:'100vh', backgroundColor:'yellowgreen'}}>  </div>
     <Slider/>
     <Footer/>
+    </div>
     </div>
   );
 }

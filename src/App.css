@@ -1,9 +1,5 @@
 
 .App {
-  /* background-image: url(${backgroundImage}); */
-  background-size: cover;
-  background: fixed;
-  background-color: black;
 }
 
 
@@ -19,4 +15,8 @@
   font-size: calc(10px + 2vmin);
 }
 
+.bgimg{
+  background-image: url("../public/images/02.jpg");
+  background-position: center;
+  background-attachment: fixed;}
 

@@ -1,6 +1,7 @@
 .navbar{
-    background: rgb(255,228,240);
-    background: radial-gradient(circle, rgba(255,228,240,1) 0%, rgba(224,238,255,1) 100%);
+    /* background: rgb(255,228,240);
+    background: radial-gradient(circle, rgba(255,228,240,1) 0%, rgba(224,238,255,1) 100%); */
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,7 +9,7 @@
 }
 
 .nav ul {
-    margin-top: 15px;
+    margin: 40px 0 0 0 !important;
     list-style: none;
     display: flex;
     font-size: 22px;
@@ -17,5 +18,7 @@
 
 .nav ul li {
     margin-right: 40px;
-    
+}
+.nav ul li p {
+    color: white;
 }
