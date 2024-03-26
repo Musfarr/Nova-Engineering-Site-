@@ -3,7 +3,7 @@ import React from 'react'
 const Slider = () => {
   return (
     <div>
-        <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slider = " autoplay :true autoplay-interval : 2000" >
+        <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slider = " autoplay :true autoplay-interval : 800" >
 
 <ul class="uk-slider-items uk-grid">
     <li class="uk-width-1-3">

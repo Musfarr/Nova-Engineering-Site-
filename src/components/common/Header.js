@@ -9,10 +9,10 @@ const Header = () => {
       <div className='logo' ><img width= {300} src='images/logo.jpeg'/>  </div>
       <div className='nav'>
         <ul>
-            <li><Link to='ss' offset={-140} smooth = 'true' duration={1000} spy = 'true' > <p> Home </p>  </Link>  </li>
-            <li><Link to='sd' offset={-110} smooth = 'true' duration={1000} spy = 'true' > <p>About</p>  </Link>  </li>
-            <li><Link> <p>Services</p>  </Link>  </li>
-            <li><Link> <p>Contact</p>  </Link>  </li>
+            <li><Link to='Home' offset={-140} smooth = 'true' duration={1000} spy = 'true' > <p> Home </p>  </Link>  </li>
+            <li><Link to='About' offset={-80} smooth = 'true' duration={1000} spy = 'true' > <p>About</p>  </Link>  </li>
+            <li><Link to='service' offset={-80}  smooth = {true} duration={1000} spy = 'true' > <p>Services</p>  </Link>  </li>
+            <li><Link to='contactform' offset={-80}  smooth = {true} duration={1000} spy = 'true' > <p>Contact</p>  </Link>  </li>
         </ul>
 
       </div>

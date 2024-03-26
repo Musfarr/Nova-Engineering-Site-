@@ -2,31 +2,73 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className='uk-flex uk-flex-column uk-flex-middle ' style={{ minHeight: '500px' }}>
-      <h1>Contact Us</h1>
-      <form className="uk-form-stacked uk-width-medium" style={{ backgroundColor:"white" }} uk-grid="">
-        <div className="uk-margin">
-          <label className="uk-form-label" htmlFor="name">Name</label>
-          <div className="uk-form-controls">
-            <input className="uk-input" id="name" type="text" placeholder="Your Name" />
+    <div id="contactform" className="">
+      <div>
+        <div
+          style={{
+            backgroundColor: "",
+            height: "600px",
+            marginTop: "90px",
+          }}
+          className="uk-grid"
+        >
+          <div className="uk-width-1-2 " style={{ display: "flex" , backgroundColor:'black'  }}>
+            <div className="uk-flex uk-flex-middle ">
+              <img src="images/logo.jpeg" />
+            </div>
+          </div>
+
+          <div className="uk-padding uk-width-1-2 form " style={{backgroundColor:'#101c2066'}} >
+            <form>
+              <fieldset class="uk-fieldset">
+                <legend class=" uk-text-center uk-legend">Contact US</legend>
+                  <div class="  uk-child-width-1-2 " uk-grid = "" >
+                    <input
+                      class="uk-input"
+                      type="text"
+                      placeholder="Input"
+                      aria-label="Input"
+                    />
+                  <input
+                    class="uk-input"
+                    type="text"
+                    placeholder="Input"
+                    aria-label="Input"
+                  />
+                  <input
+                    class="uk-input"
+                    type="text"
+                    placeholder="Input"
+                    aria-label="Input"
+                  />
+                  <input
+                    class="uk-input"
+                    type="text"
+                    placeholder="Input"
+                    aria-label="Input"
+                  />
+                </div>
+
+                <div class="uk-margin">
+                  <select class="uk-select" aria-label="Select">
+                    <option>Option 01</option>
+                    <option>Option 02</option>
+                  </select>
+                </div>
+
+                <div class="uk-margin">
+                  <textarea
+                    class="uk-textarea"
+                    rows="5"
+                    placeholder="Textarea"
+                    aria-label="Textarea"
+                  ></textarea>
+                </div>
+              </fieldset>
+            </form>
           </div>
         </div>
-        <div className="uk-margin">
-          <label className="uk-form-label" htmlFor="email">Email</label>
-          <div className="uk-form-controls">
-            <input className="uk-input" id="email" type="email" placeholder="Your Email" />
-          </div>
-        </div>
-        <div className="uk-margin">
-          <label className="uk-form-label" htmlFor="message">Message</label>
-          <div className="uk-form-controls">
-            <textarea className="uk-textarea" id="message" rows="5" placeholder="Your Message"></textarea>
-          </div>
-        </div>
-        <div className="uk-margin">
-          <button className="uk-button uk-button-primary" type="submit">Send</button>
-        </div>
-      </form>
+      </div>
     </div>
   );
 };

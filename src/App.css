@@ -1,8 +1,6 @@
 
-.App {
-}
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
 
 .App-header {
   background-color: #282c34;
@@ -20,3 +18,38 @@
   background-position: center;
   background-attachment: fixed;}
 
+
+.servicetext{
+  padding: 20px 20%;
+  text-align: center;
+}
+
+.servicetext h1 p {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.aboutsection{
+  background-image: url("../public//images/06.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-card{
+  background-color: white;
+  height: 80%;
+  width: 40%;
+  text-align: center;
+  /* overflow: scroll; */
+}
+
+.about-card h1 p {
+  padding: 100px;
+}
+
+.uk-fieldset input{
+  /* margin-left: 10px; */
+}
